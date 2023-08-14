@@ -1,0 +1,16 @@
+name: data-science-cop-tf-ray
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - jupyterlab
+  - ipykernel
+  - pandas=2.0
+  - scikit-learn=1.3
+  - tensorflow=2.12
+  - pip
+  - pip:
+    - ray
+    - ray[default]
+    - ray[data]
+  
